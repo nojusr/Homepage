@@ -1,0 +1,50 @@
+
+
+@font-face { 
+font-family: "terminus";
+src: url("TerminusTTF-4.46.0.ttf");
+}
+
+
+
+body{
+	background-color: #101213;
+	color: #C0C5CE;
+	font-family: 'terminus';
+}
+.wrapper{
+	margin: auto;
+	margin-top: 350px;
+	width: 300px;
+	text-align: center;
+}
+.main-title{
+	padding: 10px;
+}
+input{
+	width: 60%;
+}
+.columns{
+	display: flex;
+	justify-content: center;
+}
+.column{
+	width: 100px;
+	
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	color: #96B5B4;
+	border-bottom: 1px solid #96B5B4;
+	padding-bottom: 4px;
+}
+a{
+	color: #C0C5CE;
+	text-decoration: none;
+}
+a:hover{
+	color: #96B5B4;
+	text-decoration: underline;
+}
