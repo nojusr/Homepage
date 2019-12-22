@@ -2,7 +2,7 @@
 
 @font-face { 
 font-family: "terminus";
-src: url("TerminusTTF-4.46.0.ttf");
+src: url("ter-u14n.otb);
 }
 
 
@@ -11,6 +11,7 @@ body{
 	background-color: #101213;
 	color: #C0C5CE;
 	font-family: 'terminus';
+	font-size: 14px;
 }
 .wrapper{
 	margin: auto;
